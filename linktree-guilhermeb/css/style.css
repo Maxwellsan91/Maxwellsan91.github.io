@@ -1,0 +1,78 @@
+* { /* reset */
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100px;
+}
+
+body {
+    background: rgb(3,0,120);
+    background: linear-gradient(90deg, rgba(3,0,120,1) 40%, rgba(33,41,142,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0 ;
+}
+.social img {
+    width: 33px;
+}
+.list-links{
+    list-style: none;
+}
+.list-links li{
+    margin: 10px 20px;
+}
+.list-links li a{
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px white;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: (21,37,122);
+}
+.list-links li a span{
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(41, 38, 38);
+    font-family: 'Architects Daughter', cursive;
+    color: #323a9d;
+}
