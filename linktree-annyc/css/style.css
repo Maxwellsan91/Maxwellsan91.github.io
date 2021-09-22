@@ -1,0 +1,78 @@
+* { /* reset */
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100px;
+}
+
+body {
+    background: rgb(255,120,227);
+    background: linear-gradient(90deg, rgba(255,120,227,1) 25%, rgba(223,86,254,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px white;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;    font-size: 25px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0 ;
+}
+.social img {
+    width: 33px;
+}
+.list-links{
+    list-style: none;
+}
+.list-links li{
+    margin: 10px 20px;
+}
+.list-links li a{
+    display: block;
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: (21,37,122);
+    
+}
+
+.list-links li a span{
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+.footer {
+    background-color: rgb(37, 32, 32);
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
