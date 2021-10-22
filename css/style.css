@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  @-webkit-keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  @-moz-keyframes move-background {    
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+      @-webkit-keyframes move-background {
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  .background-container{
+      position: fixed;
+      top: 0;
+      left:0;
+      bottom: 0;
+      right: 0;
+  }
+  
+  .stars {
+   background: black url(../img/stars.png) repeat;
+   position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      z-index: 0;
+  }
+  
+  .twinkling{
+      width:10000px;
+      height: 100%;
+      background: transparent url(../img/twinkling.png) repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      
+      -moz-animation:move-background 70s linear infinite;
+    -ms-animation:move-background 70s linear infinite;
+    -o-animation:move-background 70s linear infinite;
+    -webkit-animation:move-background 70s linear infinite;
+    animation:move-background 70s linear infinite;
+      
+  }
+  
+  .clouds{
+      width:10000px;
+      height: 100%;
+      background: transparent url(../img/clouds_repeat.png) repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 3;
+  
+    -moz-animation:move-background 150s linear infinite;
+    -ms-animation:move-background 150s linear infinite;
+    -o-animation:move-background 150s linear infinite;
+    -webkit-animation:move-background 150s linear infinite;
+    animation:move-background 150s linear infinite;
+  }
+  .background-container img{
+    height: 70vh;
+    width:70vh;
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+  }
+
+  
+.profile{
+    display: block;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-top: 10px;
+}
+.avatar{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px white;
+}
+
+h1 {
+    display: block;
+    position: relative;
+    z-index: 3;
+    font-family: 'PT Sans', sans-serif;    font-size: 25px;
+    margin-bottom: 2px;
+    color: white;
+}
+h2{
+    display: block;
+    position: relative;
+    z-index: 3;
+    font-size: 16px;
+    color: white;
+}
+
+.list-links{
+    display: block;
+    position: relative;
+    z-index: 3;
+    list-style: none;
+}
+.list-links li{
+    display: block;
+    position: relative;
+    z-index: 3;
+    margin: 10px 20px;
+}
+.list-links li a{
+    display: block;
+    position: relative;
+    /* z-index: 2; */
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.2) 100%);
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.list-links li a span{
+    display: block;
+    position: relative;
+    z-index: 3;
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+.footer {
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(0,0,0,0.5) 100%);    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+  
